@@ -56,7 +56,7 @@ export default function Products() {
   return(  
     
     <div className="w-full h-full sm:h-[500px] mt-10 max-w-screen-2xl mx-auto">
-      <h1 className="text-3xl md: text4xl font-bold text-center">old ARRIVALS </h1>
+      <h1 className="text-3xl md: text4xl font-bold text-center">NEW ARRIVALS </h1>
       <div className="flex flex-col md:flex-row justify-center items-center md:justify-between px-8 mt-10">
         {
           product.map((data)=>{
