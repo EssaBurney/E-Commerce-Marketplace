@@ -47,29 +47,29 @@ export default function Footer() {
                         {/* box 2 */}
 
                         <ul className="space-y-3">
-                            <h2 className="text-sm sm:text-2xl">Company</h2>
-                            <li className="text-sm">About US</li>
-                            <li className="text-sm">Our Services</li>
+                            <h2 className="text-sm sm:text-2xl">Help</h2>
+                            <li className="text-sm">Customer Support</li>
+                            <li className="text-sm">Delivery Details</li>
+                            <li className="text-sm">Terms & Conditions</li>
                             <li className="text-sm">Privacy Policy</li>
-                            <li className="text-sm">Terms and COndition</li>
                         </ul>
 
                         {/* box3 */}
                         <ul className="space-y-3">
-                            <h2 className="text-sm sm:text-2xl">Company</h2>
-                            <li className="text-sm">About US</li>
-                            <li className="text-sm">Our Services</li>
-                            <li className="text-sm">Privacy Policy</li>
-                            <li className="text-sm">Terms and COndition</li>
+                            <h2 className="text-sm sm:text-2xl">Faq</h2>
+                            <li className="text-sm">Account</li>
+                            <li className="text-sm">Manage Deliveries</li>
+                            <li className="text-sm">Orders</li>
+                            <li className="text-sm">Payments</li>
                         </ul>
 
                         {/* box4 */}
                         <ul className="space-y-3">
-                            <h2 className="text-sm sm:text-2xl">Company</h2>
-                            <li className="text-sm">About US</li>
-                            <li className="text-sm">Our Services</li>
-                            <li className="text-sm">Privacy Policy</li>
-                            <li className="text-sm">Terms and COndition</li>
+                            <h2 className="text-sm sm:text-2xl">Resources</h2>
+                            <li className="text-sm">Free eBooks</li>
+                            <li className="text-sm">Development Tutorial</li>
+                            <li className="text-sm">How to - Blog</li>
+                            <li className="text-sm">Youtube Playlist</li>
                         </ul>
                     </div>
                 </div>

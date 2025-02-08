@@ -2,11 +2,11 @@ import { createClient } from '@sanity/client';
 import fetch from 'node-fetch';
 
 const client = createClient({
-  projectId: "w05o4fb6",
+  projectId: "kw2qwwh1",
   dataset: "production",
   useCdn: true,
   apiVersion: '2025-01-13',
-  token:"skMIFb1hRPoZY44BWGjw0IBpd6GAHVxMIsgDrZGT2xMq92sTZfVLn3xjykEKBkY29zn3Mp7dOJD6HzpOBgy5cl9JJtmSSH2nhTQOURrfXgeJZiO2fwU0hoECvYIEGb5HQZl45hfgwg6w4sh3ANx1uzu2S9Ao11WhyFSK9aRgtvpBy2FLwtIw",
+  token:"sk21uPq1UH4qyxTcZINCAdnycGG810E0uRq6bEbYrl90YZbM08C9r8J79J6f8d6quB9CYLpkPke8y9CGv40HVl5izyhtUC7Jq6FESDpJrBex60KE4Cw1uIxokn8qCmlfqxAMrnpHYjJg5VMpxGMcrICIyqlZDpPTv3KFgawF4rxjdeMxMq0U",
 
 });
 

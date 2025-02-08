@@ -28,7 +28,7 @@ export default function Header() {
    <ul className="hidden md:block">
     <li className="space-x-5 flex item center">
         <Link className="ml-3" href={"/"} ><NavigationMenuDemo/></Link>
-        <Link className="ml-3" href={"/"} >On Sale</Link>
+        <Link className="ml-3" href={"/category"} >Category</Link>
         <Link className="ml-3" href={"/products"} >New Arrivals</Link>
         <Link className="ml-3" href={"/"} >Brands</Link>
     </li>

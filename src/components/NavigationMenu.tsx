@@ -18,7 +18,7 @@ const components: { title: string; href: string; description: string }[] = [
   
   {
     title: "category",
-    href: "/category",
+    href: "/docs/primitives/tabs",
     description:
       "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
   },

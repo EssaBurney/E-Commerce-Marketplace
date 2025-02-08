@@ -30,19 +30,34 @@ interface Iporducts{
 }
 
 let product:Iporducts[] = [
-    {
-        title:"T-SHIRT WITH TAPE DETAILS",
-        id:1,
-        price:"$12000",
-        img_url:"/product1.svg",
-        img1:"/detail1.svg",
-        img2:"/detail2.svg",
-        img3:"/product1.svg",
-    },
+    
 
     {
-        title:"SKINNY FIT JEANS",
+        title:"SLEEVE STRIPED T-SHIRT",
+        id:1,
+        price:"$11000",
+        img_url:"/product4.svg",
+        img1:"/detail1.svg",
+        img2:"/detail2.svg",
+        img3:"/product4.svg",
+    },
+    
+    {
+
+        title:"CHECKERED SHIRT",
         id:2,
+        price:"$13000",
+        img_url:"/product3.svg",
+        img1:"/detail1.svg",
+        img2:"/detail2.svg",
+        img3:"/product3.svg",
+    },
+
+    
+    
+    {
+        title:"SKINNY FIT JEANS",
+        id:3,
         price:"$14000",
         img_url:"/product2.svg",
         img1:"/detail1.svg",
@@ -51,24 +66,13 @@ let product:Iporducts[] = [
     },
     
     {
-
-        title:"CHECKERED SHIRT",
-        id:3,
-        price:"$13000",
-        img_url:"/product3.svg",
-        img1:"/detail1.svg",
-        img2:"/detail2.svg",
-        img3:"/product3.svg",
-    },
-
-    {
-        title:"SLEEVE STRIPED T-SHIRT",
+        title:"T-SHIRT WITH TAPE DETAILS",
         id:4,
-        price:"$11000",
-        img_url:"/product4.svg",
+        price:"$12000",
+        img_url:"/product1.svg",
         img1:"/detail1.svg",
         img2:"/detail2.svg",
-        img3:"/product4.svg",
+        img3:"/product1.svg",
     },
 
     {
@@ -93,8 +97,18 @@ let product:Iporducts[] = [
 },
 
 {
-  title:"LOOSE FIT BERMUDA SHORTS",
+  title:"FADED SKINNY JEANS",
   id:7,
+  price:"$80000",
+  img_url:"/product8.svg",
+  img1:"/detail1.svg",
+  img2:"/detail2.svg",
+  img3:"/product8.svg",
+},
+
+{
+  title:"LOOSE FIT BERMUDA SHORTS",
+  id:8,
   price:"$25000",
   img_url:"/product7.svg",
   img1:"/detail1.svg",
@@ -102,15 +116,7 @@ let product:Iporducts[] = [
   img3:"/product7.svg",
 },
 
-{
-  title:"FADED SKINNY JEANS",
-  id:8,
-  price:"$80000",
-  img_url:"/product8.svg",
-  img1:"/detail1.svg",
-  img2:"/detail2.svg",
-  img3:"/product8.svg",
-},
+
 
 {
   title:"GREEN STRIPED SHIRT",
@@ -132,19 +138,9 @@ let product:Iporducts[] = [
   img3:"/product6.svg",
 },
 
-{
-  title:"LOOSE FIT CHADDA SHORTS",
-  id:11,
-  price:"$25000",
-  img_url:"/product7.svg",
-  img1:"/detail1.svg",
-  img2:"/detail2.svg",
-  img3:"/product7.svg",
-},
-
 {   
   title:"FADED SKINNY PEAT JEANS",
-  id:12,
+  id:11,
   price:"$80000",
   img_url:"/product8.svg",
   img1:"/detail1.svg",
@@ -152,14 +148,24 @@ let product:Iporducts[] = [
   img3:"/product8.svg",
 },
 
+{
+  title:"LOOSE FIT CHADDA SHORTS",
+  id:12,
+  price:"$25000",
+  img_url:"/product7.svg",
+  img1:"/detail1.svg",
+  img2:"/detail2.svg",
+  img3:"/product7.svg",
+},
+
 ]
 
 
 export default function Product_Detail(){
   const params = useParams(); 
-   const id = params.id // dynamic id here
+   const id = params.id // dynamic id is here
 
-console.log("params.id:", params.id);  //  added temporary from chgpt
+console.log("params.id:", params.id);  // i have  added temporary from chgpt
 
    const item = product.find((item)=> item.id  === Number (id))
    if(!item){
@@ -232,8 +238,8 @@ console.log("params.id:", params.id);  //  added temporary from chgpt
     1
     <Plus/>
   </div>
- <Button className="bg-black text-white w-[300px]">Add To Cart</Button>
-</div>
+  <Button className="bg-black text-white w-[300px]" onClick={() => window.location.href = "/cart"}>Add To Cart</Button>
+  </div>
 </div>
 
 

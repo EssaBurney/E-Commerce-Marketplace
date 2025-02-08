@@ -12,13 +12,14 @@ interface Iporducts{
 }
 
 let product:Iporducts[] = [
+    
     {
-        title:"VERTICAL STRIPED SHIRT",
+        title:"FADED SKINNY JEANS",
         id:5,
-        price:"$19000",
-        img_url:"/product5.svg"
+        price:"$80000",
+        img_url:"/product8.svg"
     },
-
+    
     {
         title:"COURAGE GRAPHIC T-SHIRT",
         id:6,
@@ -35,12 +36,14 @@ let product:Iporducts[] = [
         img_url:"/product7.svg"
     },
 
+    
+    
     {
-        title:"FADED SKINNY JEANS",
+        title:"VERTICAL STRIPED SHIRT",
         id:8,
-        price:"$80000",
-        img_url:"/product8.svg"
-    }
+        price:"$19000",
+        img_url:"/product5.svg"
+    },
   ]
 
   let star = [

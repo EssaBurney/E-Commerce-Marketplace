@@ -13,27 +13,31 @@ interface Iporducts{
 
 let product:Iporducts[] = [
   
-  {
-        title:"T-SHIRT WITH TAPE DETAILS",
+  
+
+    {
+    
+        title:"CHECKERED SHIRT",
         id:1,
+        price:"$13000",
+        img_url:"/product3.svg"
+    },
+    
+    {
+        title:"T-SHIRT WITH TAPE DETAILS",
+        id:2,
         price:"$12000",
         img_url:"/product1.svg"
     },
-
+    
     {
         title:"SKINNY FIT JEANS",
-        id:2,
+        id:3,
         price:"$14000",
         img_url:"/product2.svg",
     },
     
-    {
     
-        title:"CHECKERED SHIRT",
-        id:3,
-        price:"$13000",
-        img_url:"/product3.svg"
-    },
 
     {
         title:"SLEEVE STRIPED T-SHIRT",

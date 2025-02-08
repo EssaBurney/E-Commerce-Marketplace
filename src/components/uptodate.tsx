@@ -10,7 +10,8 @@ export default function Uptodate() {
             <div className="flex justify-start items-center sm:w-[330px] h-[40px] rounded-[62px] bg-[#F0F0F0]">
               <MdEmail className="text-xl ml-2 text-black"/>
               <input placeholder="search item..." className="w-full h-full outline-none rounded-[62px] bg-[#F0F0F0]"></input>
-           </div>
+              </div>
+              <div/>
               <div className="flex justify-center items-center sm:w-[330px] h-[40px] rounded-[62px] bg-[#F0F0F0]">
            <p className="text-black">Subscribe To Newsletter</p>
             </div> 
